@@ -1,0 +1,193 @@
+{
+    "coreCriteria": {
+        "clarity": {
+            "definition": "Clarity refers to the ease with which the prompt communicates its intended message.",
+            "examples": {
+                "0": "Do the thing with the stuff.",
+                "2": "Fix the issue with the program, you know what I mean.",
+                "4": "Sort the data and make it better.",
+                "6": "Organize the list of items by priority, but use your judgment.",
+                "8": "Sort the list of tasks by priority, focusing on deadlines and urgency.",
+                "10": "Sort the list of tasks in descending order of priority, starting with those due tomorrow and including only high-urgency items."
+            }
+        },
+        "relevance": {
+            "definition": "Relevance measures how closely the prompt aligns with the task or objective at hand.",
+            "examples": {
+                "0": "Write a poem about the ocean.",
+                "2": "Create a sales report for last year’s products.",
+                "4": "Include a brief overview of the current market in the annual financial report.",
+                "6": "Analyze customer feedback from last quarter and create a brief summary.",
+                "8": "Conduct a detailed analysis of customer feedback from last quarter, highlighting key trends and sentiment.",
+                "10": "Perform a detailed sentiment analysis of customer feedback from last quarter, categorizing the responses into positive, neutral, and negative trends."
+            }
+        },
+        "specificity": {
+            "definition": "Specificity involves the level of detail provided in the prompt to guide the AI’s response.",
+            "examples": {
+                "0": "Make the document better.",
+                "2": "Improve the quality of the document with some revisions.",
+                "4": "Edit the document to improve readability and clarity.",
+                "6": "Revise the document to enhance readability by simplifying complex sentences and correcting grammar.",
+                "8": "Edit the document to improve readability by simplifying complex sentences, correcting grammatical errors, and ensuring a consistent tone.",
+                "10": "Revise the document to enhance readability: simplify complex sentences, correct all grammatical errors, ensure consistent tone, and update the introduction to reflect recent data."
+            }
+        },
+        "completeness": {
+            "definition": "Completeness is the extent to which the prompt includes all necessary information and instructions to perform the task effectively.",
+            "examples": {
+                "0": "Analyze the data.",
+                "2": "Analyze last month’s data.",
+                "4": "Analyze the sales data from last month.",
+                "6": "Analyze the sales data from last month and identify the top-performing products.",
+                "8": "Analyze the sales data from last month, identify the top-performing products, and provide recommendations for next month.",
+                "10": "Analyze the sales data from last month, identify the top-performing products, provide detailed recommendations for next month, and include a comparison with the previous month’s performance."
+            }
+        }
+    },
+    "comprehensiveCriteria": {
+        "cognitiveLoad": {
+            "definition": "Cognitive load refers to the mental effort required to understand and respond to the prompt.",
+            "examples": {
+                "0": "Click a button to submit the form.",
+                "2": "Enter your name and email in the form fields.",
+                "4": "Read a short paragraph and answer a simple comprehension question.",
+                "6": "Review a 5-page report and summarize the key points.",
+                "8": "Analyze a complex dataset with multiple variables to identify trends.",
+                "10": "Develop a comprehensive business strategy based on extensive market research and financial analysis."
+            }
+        },
+        "ethicalConsiderations": {
+            "definition": "Ethical considerations involve assessing the prompt for any potential biases, fairness issues, or ethical dilemmas.",
+            "examples": {
+                "0": "Create a hiring algorithm that favors a specific gender.",
+                "2": "Design an advertising campaign that targets vulnerable populations with predatory practices.",
+                "4": "Implement a loan approval system that gives preference to applicants from certain neighborhoods.",
+                "6": "Develop a content recommendation system that tends to favor specific types of content.",
+                "8": "Create a personalized shopping experience while ensuring that all recommendations are based solely on user preferences.",
+                "10": "Design an AI-driven hiring process that evaluates candidates based solely on qualifications and experience, without any bias."
+            }
+        },
+        "adaptability": {
+            "definition": "Adaptability measures the prompt's ability to be modified or applied to different contexts or tasks.",
+            "examples": {
+                "0": "Write a hardcoded script to process a specific file format.",
+                "2": "Create a system that only works with one type of database.",
+                "4": "Develop an application that can be modified to support different file formats, but requires extensive code changes.",
+                "6": "Build a modular application that can be adjusted to handle various file formats with some configuration changes.",
+                "8": "Create a flexible system that supports multiple file formats through easy-to-adjust settings.",
+                "10": "Design a universal parser that automatically adapts to any file format based on its metadata."
+            }
+        },
+        "transparency": {
+            "definition": "Transparency refers to the clarity with which the AI’s decision-making process is communicated through the prompt.",
+            "examples": {
+                "0": "Use a black-box AI model that provides no explanation for its recommendations.",
+                "2": "Deploy a recommendation system that offers little insight into why certain suggestions are made.",
+                "4": "Implement an AI model that occasionally explains its decisions but leaves most processes hidden.",
+                "6": "Use an AI-driven system that explains its key decisions, though some aspects remain unclear.",
+                "8": "Develop a recommendation system that provides clear and understandable reasons for each suggestion.",
+                "10": "Create an AI model that offers comprehensive explanations for all its decisions, ensuring complete transparency."
+            }
+        },
+        "executionEfficiency": {
+            "definition": "Execution efficiency involves evaluating how quickly and effectively the prompt can be processed by the AI to produce the desired outcome.",
+            "examples": {
+                "0": "Run a script that takes several hours to process a small dataset.",
+                "2": "Use a program that processes data but frequently crashes and takes excessive time to complete tasks.",
+                "4": "Execute a task that completes successfully but with noticeable lags and delays.",
+                "6": "Run a process that works well but could be optimized to reduce minor delays.",
+                "8": "Deploy a system that performs efficiently but could benefit from small tweaks to optimize performance.",
+                "10": "Execute a well-optimized script that processes data instantly and without any delays."
+            }
+        },
+        "taskStructure": {
+            "definition": "Task structure examines the level of organization and clarity in the task's definition.",
+            "examples": {
+                "0": "Write a report on a topic of your choice, but no guidelines or objectives are provided.",
+                "2": "Complete the analysis, but the instructions are vague and missing key steps.",
+                "4": "Write a summary of the provided document, but only a rough outline is given, without specific instructions.",
+                "6": "Conduct a market analysis based on the provided data, with clear steps outlined, but some sections are not fully detailed.",
+                "8": "Prepare a financial report using the provided template and guidelines, with clear steps and objectives outlined.",
+                "10": "Execute a step-by-step process to generate a sales report, with every step clearly defined and aligned with the final goal."
+            }
+        },
+        "contentComplexity": {
+            "definition": "Content complexity refers to the intricacy and detail involved in the content of the task.",
+            "examples": {
+                "0": "List your three favorite colors.",
+                "2": "Write a few sentences describing your daily routine.",
+                "4": "Write a short paragraph explaining the benefits of exercise.",
+                "6": "Summarize the key points of a research article on health and nutrition.",
+                "8": "Analyze a scientific paper on climate change, including the interpretation of complex data and findings.",
+                "10": "Develop a thesis on the economic impacts of global trade policies, integrating multiple sources of complex data and theoretical frameworks."
+            }
+        },
+        "ethicalComplexity": {
+            "definition": "Ethical complexity evaluates the ethical considerations related to the task, including potential biases, fairness, and social impact.",
+            "examples": {
+                "0": "Organize a list of books by title.",
+                "2": "Create a customer survey to gather feedback on product features, with neutral language.",
+                "4": "Design an advertising campaign that must adhere to basic industry standards, ensuring no misleading information is used.",
+                "6": "Develop a user profiling system that must avoid bias and ensure fair treatment of all user groups.",
+                "8": "Create an algorithm for loan approvals that must be fair and unbiased, considering the potential impact on various demographics.",
+                "10": "Design a facial recognition system for law enforcement use, ensuring it does not perpetuate racial or gender biases and meets stringent ethical standards."
+            }
+        },
+        "adaptabilityRequirements": {
+            "definition": "Adaptability requirements measure how easily a task can be modified or applied to different contexts.",
+            "examples": {
+                "0": "Write a one-time use script that processes data from a specific, unchanging file format.",
+                "2": "Develop an application that works with a single type of database but requires a major overhaul to support others.",
+                "4": "Create a reporting tool that can be modified to support different data sources, but requires extensive reconfiguration.",
+                "6": "Build a modular application that supports multiple data formats with some configuration changes.",
+                "8": "Design a flexible reporting system that can easily be adjusted to work with different data inputs.",
+                "10": "Create a universal data processing tool that automatically adjusts to different data formats and requirements without needing code changes."
+            }
+        },
+        "interactivity": {
+            "definition": "Interactivity evaluates the level of interaction required between the user and the system during the task.",
+            "examples": {
+                "0": "Run an automated nightly data backup with no user input.",
+                "2": "Initiate a batch processing task that only requires a single confirmation click.",
+                "4": "Monitor a system where users only need to intervene when an error occurs, which is rare.",
+                "6": "Operate a data entry system where the user must input information at various stages of the process.",
+                "8": "Manage a live customer service chat, responding to inquiries and resolving issues in real-time.",
+                "10": "Facilitate a collaborative virtual workshop where participants continuously interact with each other and the facilitator to complete complex tasks."
+            }
+        },
+        "dataSensitivity": {
+            "definition": "Data sensitivity refers to the level of confidentiality and security required for the data involved in the task.",
+            "examples": {
+                "0": "Publish a list of publicly available event dates on a website.",
+                "2": "Share a list of office supply orders within a small internal team.",
+                "4": "Compile and distribute employee work schedules to department managers.",
+                "6": "Manage a database of customer contact information, ensuring that access is restricted to authorized personnel only.",
+                "8": "Handle patient medical records, ensuring compliance with HIPAA regulations and implementing strong encryption protocols.",
+                "10": "Manage classified government documents that require the highest level of security clearance and protection against breaches."
+            }
+        },
+        "outcomeUncertainty": {
+            "definition": "Outcome uncertainty measures how predictable the task's outcome is and the degree of variability involved.",
+            "examples": {
+                "0": "Calculate a fixed mathematical formula with a guaranteed result.",
+                "2": "Run a standard financial report that consistently produces the same results each month.",
+                "4": "Forecast next quarter's sales based on historical data with some assumptions about market conditions.",
+                "6": "Develop a marketing campaign where the effectiveness will depend on consumer reactions and market trends.",
+                "8": "Launch a new product in an emerging market, where consumer acceptance is uncertain and market conditions are highly volatile.",
+                "10": "Develop an AI model to predict the stock market, where the outcome is influenced by a wide range of unpredictable factors."
+            }
+        },
+        "learningCurve": {
+            "definition": "The learning curve refers to the amount of new knowledge or skills required to complete the task.",
+            "examples": {
+                "0": "Send a pre-written email template to a list of contacts.",
+                "2": "Learn to use a new feature in an already familiar software application.",
+                "4": "Familiarize yourself with a new data entry system, where the interface is similar to systems you've used before.",
+                "6": "Learn to use a new project management tool that introduces several new concepts and workflows.",
+                "8": "Train to become proficient in a complex programming language that is completely new to you.",
+                "10": "Learn to design and implement advanced AI algorithms, starting from a basic understanding of programming."
+            }
+        }
+    }
+}
